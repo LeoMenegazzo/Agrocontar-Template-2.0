@@ -1,0 +1,101 @@
+.wq-breadcrumbs h1:after{
+	font-size: 75px;
+	top: -15%;
+}
+.wq-breadcrumbs h1{
+	width: 80%;
+}
+
+
+.wq-trabalhe-conosco_01{
+	padding: 75px 0 150px;
+}
+.wq-trabalhe-conosco_01 input{
+	width: calc(100% - 35px);
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.wq-trabalhe-conosco_01 .wq-titulo_2{
+	max-width: 350px;
+	margin-bottom: 45px
+}
+.wq-trabalhe-conosco_01 button{
+	margin-top: 30px;
+}
+
+.wq-trabalhe-conosco_01 .wq-btn-curriculo input[type='file'] {
+	display: none;
+}
+.wq-trabalhe-conosco_01 .wq-btn-curriculo span:before{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.wq-trabalhe-conosco_01 .wq-btn-curriculo span{
+	background-color: #e1e1e1;
+	color: #989898;
+	margin-right: 20px;
+	width: 70px;
+	height: 100%;
+	display: block;	
+}
+.wq-trabalhe-conosco_01 .wq-btn-curriculo{
+	width: 357px;
+	height: 50px;
+	display: flex;
+	position: relative;
+	align-items: center;
+	background-color: #ebebeb;
+}
+.wq-trabalhe-conosco_01 .wq-btn-curriculo label{
+	right: 0;
+	left: 0;
+	color: #989898;
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	cursor: pointer;
+	transition: all .3s ease; 
+}
+.wq-trabalhe-conosco_01 .wq-btn-curriculo label:hover{
+	box-shadow: 0px 10px 15px -10px rgba(0,0,0,.35);
+}
+
+
+
+
+.wq-trabalhe-conosco_01 .wq-flex > .wq-box_6f:first-child > div{
+	padding: 40px 50px 60px 0;
+}
+.wq-trabalhe-conosco_01{
+	overflow: hidden;
+}
+.wq-trabalhe-conosco_01 .wq-box_6f > figure {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.wq-trabalhe-conosco_01 .wq-box_6f{
+	position: relative;
+}
+.wq-trabalhe-conosco_01 .wq-box_6f img{
+	display: block;
+}
+
+
+
+
+@media screen and (max-width: 999px){
+	.wq-breadcrumbs h1{
+		font-size: 33px;
+	}
+	.wq-breadcrumbs h1:after{
+		font-size: 40px!important;
+	}
+}
