@@ -3,14 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Agrocontar</title>
+	<title>Agrocontar - Home</title>
 
-	<link rel="stylesheet" type="text/css" href="css/webquantica-grid.css">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
 
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/webquantica-grid.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/aos.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/carousel.js"></script>
 	<script type="text/javascript" src="js/efeitos.js"></script>
@@ -18,110 +27,144 @@
 <body>
 
 	<header class="wq-header wq-header_vertical">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-logo">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg header-nav">
+				<div class="wq-logo navbar-brand">
 					<a href="index.html">
 						<img src="img/logo-agrocontar.png" alt="" title="">
 					</a>
 				</div>
-				<div class="wq-btn_menu">
-					<hr>
-					<hr>
-					<hr>
-				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuMobile" aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
+					<span>
+						<img src="img/menu.svg" alt="" title="">
+					</span>
+				</button>
+
 				<div class="wq-navegacao">
-					<ul class="wq-midias-sociais wq-lista-inline">
-						<li><a href=""><span class="flaticon-facebook"></span></a></li>
-						<li><a href=""><span class="flaticon-google-plus"></span></a></li>	
-						<li><a href=""><span class="flaticon-twitter"></span></a></li>	
-						<li><a href=""><span class="flaticon-linkedin"></span></a></li>		
-					</ul>
-					<p>34 3823-7915</p>
-					<nav class="wq-menu_principal">
-						<ul class="wq-lista-inline">
-							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="empresa.html">Sobre nós</a></li>
-							<li><a href="servicos.html">Soluções</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contato.html">Contato</a></li>
+					<div>
+						<ul class="wq-midias-sociais wq-lista-inline">
+							<li><a href="https://www.linkedin.com/company/40806601/"><span class="flaticon-linkedin-1"></span></a></li>
+							<li><a href="https://www.instagram.com/agrocontar/"><span class="flaticon-instagram-1"></span></a></li>
+							<li><a href="https://www.facebook.com/pg/agrocontar"><span class="flaticon-facebook-1"></span></a></li>
 						</ul>
-					</nav>
+						<p>
+							<a href="tel:+553438237915">+55 (34) 3823-7915</a>
+							<a href="tel:+556234149300">+55 (62) 3414-9300</a>
+						</p>
+					</div>
+					<div class="collapse navbar-collapse " id="menuMobile">
+						<ul class="navbar-nav wq-menu_principal">
+							<li class="nav-item">
+								<a class="menu-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="empresa.html">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="servicos.html">Soluções</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="contato.html">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="trabalhe-conosco.html">Trabalhe Conosco</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
 	</header>
 
 	<section class="wq-banner">
 		<div class="wq-banner_item">
-			<img src="img/banner.jpg" alt="" title="">
+			<figure><img src="img/banner.jpg" alt="" title=""></figure>
 			<div class="wq-banner_texto">
-				<div class="wq-container">
+				<div class="container">
+					<h2 class="wq-titulo_1">Especialista em Agronegócio, Assim como você.</h2>
+				</div>
+			</div>
+		</div>
+		<div class="wq-banner_item">
+			<figure><img src="img/banner.jpg" alt="" title=""></figure>
+			<div class="wq-banner_texto">
+				<div class="container">
+					<h2 class="wq-titulo_1">Especialista em Agronegócio, Assim como você.</h2>
+				</div>
+			</div>
+		</div>
+		<div class="wq-banner_item">
+			<figure><img src="img/banner.jpg" alt="" title=""></figure>
+			<div class="wq-banner_texto">
+				<div class="container">
 					<h2 class="wq-titulo_1">Especialista em Agronegócio, Assim como você.</h2>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="wq-01">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_4 wq-box_cp-12f wq-box_cl-12f">
-					<h3 class="wq-titulo_2">Soluções Contábeis na Gestão de Empresas do Agronegócio</h3>
+	<section class="wq-01" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<h1 class="wq-titulo_2">Soluções Contábeis na Gestão de Empresas do Agronegócio</h1>
 				</div>
-				<div class="wq-box_8 wq-box_cp-12f wq-box_cl-12f">
-					<p>Fundada há mais de 15 anos, atuamos em diversos estados brasileiros, realizando um trabalho que agrega valor para nossos clientes através de informações relevantes para tomada de decisão.</p>
+				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+					<p>Fundada há mais de 15 anos, atua em diversos estados brasileiros, realizando um trabalho que agrega valor para seus clientes através de informações relevantes para tomada de decisão.</p>
 					<p>Utiliza-se de tecnologia avançada para aprimorar nossos controles garantindo informações seguras e precisas.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="wq-02">
-		<div class="wq-container">
-			<h2 class="wq-titulo_1">Existe um regime<br> tributário mais eficiente<br> para sua empresa.</h2>
-			<div class="wq-flex">
-				<div class="wq-box_6f wq-box_cp-12f wq-box_cl-12f wq-box_tp-12f">
+	<section class="wq-02" id="sobre-home" data-aos="fade">
+		<div class="container">
+			<h2 class="wq-titulo_1">Existe um regime tributário mais eficiente para sua empresa.</h2>
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 					<div>
-						<h3>Evite procedimentos fiscais onerosos para sua empresa.</h3>
-						<p>Administrar uma empresa diante de um mercado competitivo e um cenário econômico cheio de adversidades não é fácil. Em meio a tantas dificuldades podemos destacar um sistema tributário nacional muito complexo, com vários tipos de tributos que oneram as empresas, diminuindo seu lucro e, automaticamente, sua competitividade de mercado.</p>
-						<p>Nesse cenário adverso, temos a necessidade de estudar com afinco o sistema tributário nacional, a fim de realizar um planejamento tributário, com o intuito de  analisar qual regime tributário irá onerar menos a empresa, dando-lhe a oportunidade de manter-se no mercado, gerar lucros e assim gerar empregos, para o bom funcionamento de nossa sociedade.</p>
-						<a href="" class="wq-btn">Saiba Mais</a>
+						<p>Administrar uma empresa diante de um mercado competitivo e um cenário econômico cheio de adversidades não é fácil. Em meio a tantas dificuldades no mercado do agronegócio, podemos destacar um sistema tributário nacional muito complexo, com vários tipos de tributos que oneram as empresas, diminuindo seu lucro e, automaticamente, sua competitividade de mercado.</p>
+						<p>Além disso, há uma grande dificuldade para interpretação da legislação tributária e, não bastasse isso, ainda são feitas constantes alterações na legislação, o que exige que o profissional da área esteja em constante processo de atualização de seus conhecimentos.</p>
+						<p>Surge dessa forma o papel da empresa AGROCONTAR, especialista em agronegócio que faz esse estudo e orienta seu cliente, de forma a evitar o procedimento mais oneroso do ponto de vista fiscal. Com um planejamento tributário eficiente e eficaz, é possível prever as falhas, as dificuldades que irão surgir acompanhar e elaborar ações preventivas, e enfim, atingir seus objetivos.</p>
+						<a href="empresa.html" class="wq-btn">Saiba Mais</a>
 					</div>
 				</div>
-				<div class="wq-box_6f wq-box_cp-12f wq-box_cl-12f">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 					<figure>
-						<img src="img/wq-02_img.jpg" alt="" title="">
+						<img src="img/img-1-951x650.jpg" title="img-1">
 					</figure>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="wq-03">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_4 wq-box_cp-12f wq-box_cl-12f wq-box_tp-12f wq-box_tl-12f">
+	<section class="wq-03" id="servicos-home" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
 					<h3 class="wq-titulo_2">Como podemos colocar sua empresa no Rumo Certo?</h3>
 				</div>
-				<div class="wq-box_8 wq-box_cp-12f wq-box_cl-12f wq-box_tp-12f wq-box_tl-12f">
-					<p>A <h1>AGROCONTAR </h1></p><p>possui um sistema informatizado e integrado de operação. Aliando tecnologia de ponta e o elevado grau de treinamento, especialização e compromisso de seus colaboradores, a empresa potencializa seus resultados, estudando o Sistema Tributário Nacional, apoiado num cenário econômico instável e complexo. Nossa excelência em serviços contábeis garante o cumprimento das metas estabelecidas junto aos nossos clientes, que caminham sobre as indicações mais acertadas para o seu negócio.</p>
-					<div class="wq-flex">
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+					<p>A <strong>AGROCONTAR</strong> possui um sistema informatizado e integrado de operação. Aliando tecnologia de ponta e o elevado grau de treinamento, especialização e compromisso de seus colaboradores, a empresa potencializa seus resultados, estudando o Sistema Tributário Nacional, apoiado num cenário econômico instável e complexo. A excelência em serviços contábeis garante o cumprimento das metas estabelecidas junto aos clientes, que caminham sobre as indicações mais acertadas para o seu negócio.</p>
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<figure>
-									<img src="img/wq-03_icone-1.jpg" alt="" title="">
+									<img src="img/wq-03_icone-1.png" alt="" loading="lazy" title="wq-03_icone-1">
 								</figure>
 								<div>
-									<h2>Planejamento Contábil e  Administrativo</h2>
-									<p>Com o objetivo de prever was falhas e as dificuldades que irão surgir e elaborando ações preventivas.</p>
+									<h2>Planejamento Contábil e Administrativo</h2>
+									<p>Com o objetivo de prever as falhas e as dificuldades que irão surgir e elaborando ações preventivas.</p>
 								</div>
 							</div>
 						</div>
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<figure>
-									<img src="img/wq-03_icone-2.jpg" alt="" title="">
+									<img src="img/wq-03_icone-2.png" alt="" loading="lazy" title="wq-03_icone-2">
 								</figure>
 								<div>
 									<h2>Estudo Tributário</h2>
@@ -129,10 +172,10 @@
 								</div>
 							</div>
 						</div>
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<figure>
-									<img src="img/wq-03_icone-3.jpg" alt="" title="">
+									<img src="img/wq-03_icone-3.png" alt="" loading="lazy" title="wq-03_icone-3">
 								</figure>
 								<div>
 									<h2>Orientação ao Cliente</h2>
@@ -140,14 +183,14 @@
 								</div>
 							</div>
 						</div>
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<figure>
-									<img src="img/wq-03_icone-4.jpg" alt="" title="">
-								</figure>
+									<img src="img/wq-03_icone-4.png" alt="" loading="lazy" title="wq-03_icone-4">											</figure>
 								<div>
 									<h2>Metodologia</h2>
-									<p>Atendimento Personalizado;<br>Método D+1 Fiscal e Método D+2 Financeiro; Apoio na tomada de decisão; Parceria ganha ganha; Normas internacionais de Contabilidade.</p>
+									<p>Atendimento Personalizado;<br>
+									Método D+1 Fiscal e Método D+2 Financeiro; Apoio na tomada de decisão; Parceria ganha ganha; Normas internacionais de Contabilidade.</p>
 								</div>
 							</div>
 						</div>
@@ -157,59 +200,20 @@
 		</div>
 	</section>
 
-	<section class="wq-04">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_4 wq-box_cp-12f wq-box_cl-12f">
-					<h3 class="wq-titulo_2">Quem confia na Agrocontar</h3>
-				</div>
-				<div class="wq-box_8 wq-box_cp-12f wq-box_cl-12f">
-					<div class="wq-carousel_clientes">
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="wq-05">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-12f wq-box_tp-12f wq-box_tl-12f">
+	<section class="wq-05" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
 					<h3 class="wq-titulo_2">As últimas do nosso blog</h3>
 				</div>
-				<div class="wq-box_9 wq-box_cp-12f wq-box_cl-12f wq-box_tp-12f wq-box_tl-12f">
-					<div class="wq-blog_item wq-flex">
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+				<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
+					<div class="wq-blog_item row">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<figure>
 								<img src="img/blog_img.jpg" alt="" title="">
 							</figure>
 						</div>
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<h2>Vitae pharetra justo magna a lorem</h2>
 								<p>Donsectetur ante vel pharetra fringilla. Proin vehicula magna justo, ac luctus justo blandit non. Sed erat mi, pharetra et malesuada ac.</p>
@@ -217,13 +221,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="wq-blog_item wq-flex">
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+					<div class="wq-blog_item row">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<figure>
 								<img src="img/blog_img.jpg" alt="" title="">
 							</figure>
 						</div>
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<h2>Vitae pharetra justo magna a lorem</h2>
 								<p>Donsectetur ante vel pharetra fringilla. Proin vehicula magna justo, ac luctus justo blandit non. Sed erat mi, pharetra et malesuada ac.</p>
@@ -237,47 +241,60 @@
 	</section>
 
 	<footer class="wq-footer">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Endereço</h4>
 					<address>Patos de Minas - Rua Silva Guerra, nº 43 - Loja 01, Ed. Coml Maria Luiza Teles - Centro - CEP: 38.700-176</address>
 					<address>Goiânia - Av. C 255, nº 400 - Sala 802, Eldorado Business Tower - Nova Suiça - CEP: 74.280-010</address>
 					<address>Ribeirão Preto - Av. Professor João Fiusa, nº 1901 - Sala 301 - Ed Fiusa Center – Jd Botânico - CEP: 14.024-250
 					</address>
 				</div>
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Contato</h4>
 					<address>contato@agrocontar.com.br</address>
 					<address>34 3823-7915</address>
 					<a href="trabalhe-conosco.html">TRABALHE CONOSCO</a>
 				</div>
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Siga-nos</h4>
 					<ul class="wq-midias-sociais wq-lista-inline">
-						<li><a href=""><span class="flaticon-instagram"></span></a></li>
-						<li><a href=""><span class="flaticon-facebook"></span></a></li>
-						<li><a href=""><span class="flaticon-google-plus"></span></a></li>
+						<li><a href="https://www.linkedin.com/company/40806601/"><span class="flaticon-linkedin-1"></span></a></li>
+							<li><a href="https://www.instagram.com/agrocontar/"><span class="flaticon-instagram-1"></span></a></li>
+							<li><a href="https://www.facebook.com/pg/agrocontar"><span class="flaticon-facebook-1"></span></a></li>
 					</ul>
 				</div>
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="wq-menu_footer">
-						<ul>
-							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="empresa.html">Sobre nós</a></li>
-							<li><a href="servicos.html">Soluções</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contato.html">Contato</a></li>
+						<ul class="navbar-nav wq-menu_principal">
+							<li class="nav-item">
+								<a class="menu-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="empresa.html">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="servicos.html">Soluções</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="contato.html">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="trabalhe-conosco.html">Trabalhe Conosco</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="wq-copyright">
-			<div class="wq-container">
-				<div class="wq-flex">
-					<p>® 2017 Agrocontar - Todos os Direitos Reservados.</p>
-					<p>Desenvolvido por <a href="">Harpia Propaganda</a></p>
+			<div class="container">
+				<div class="row">
+					<p>® 2022 Agrocontar - Todos os Direitos Reservados.</p>
+					<p>Desenvolvido por <a href="https://atomdigital.com.br/">Atom Digital</a></p>
 				</div>
 			</div>
 		</div>

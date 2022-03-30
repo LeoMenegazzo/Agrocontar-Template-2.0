@@ -3,15 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Agrocontar</title>
+	<title>Agrocontar - Sobre Nós</title>
 
-	<link rel="stylesheet" type="text/css" href="css/webquantica-grid.css">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/empresa.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
 
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/webquantica-grid.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/aos.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/carousel.js"></script>
 	<script type="text/javascript" src="js/efeitos.js"></script>
@@ -19,45 +28,63 @@
 <body>
 
 	<header class="wq-header wq-header_vertical">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-logo">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg header-nav">
+				<div class="wq-logo navbar-brand">
 					<a href="index.html">
 						<img src="img/logo-agrocontar.png" alt="" title="">
 					</a>
 				</div>
-				<div class="wq-btn_menu">
-					<hr>
-					<hr>
-					<hr>
-				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuMobile" aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
+					<span>
+						<img src="img/menu.svg" alt="" title="">
+					</span>
+				</button>
+
 				<div class="wq-navegacao">
-					<ul class="wq-midias-sociais wq-lista-inline">
-						<li><a href=""><span class="flaticon-facebook"></span></a></li>
-						<li><a href=""><span class="flaticon-google-plus"></span></a></li>	
-						<li><a href=""><span class="flaticon-twitter"></span></a></li>	
-						<li><a href=""><span class="flaticon-linkedin"></span></a></li>		
-					</ul>
-					<p>34 3823-7915</p>
-					<nav class="wq-menu_principal">
-						<ul class="wq-lista-inline">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="empresa.html" class="active">Sobre nós</a></li>
-							<li><a href="servicos.html">Soluções</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contato.html">Contato</a></li>
+					<div>
+						<ul class="wq-midias-sociais wq-lista-inline">
+							<li><a href="https://www.linkedin.com/company/40806601/"><span class="flaticon-linkedin-1"></span></a></li>
+							<li><a href="https://www.instagram.com/agrocontar/"><span class="flaticon-instagram-1"></span></a></li>
+							<li><a href="https://www.facebook.com/pg/agrocontar"><span class="flaticon-facebook-1"></span></a></li>
 						</ul>
-					</nav>
+						<p>
+							<a href="tel:+553438237915">+55 (34) 3823-7915</a>
+							<a href="tel:+556234149300">+55 (62) 3414-9300</a>
+						</p>
+					</div>
+					<div class="collapse navbar-collapse " id="menuMobile">
+						<ul class="navbar-nav wq-menu_principal">
+							<li class="nav-item">
+								<a class="menu-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="empresa.html">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="servicos.html">Soluções</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="contato.html">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="trabalhe-conosco.html">Trabalhe Conosco</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
+			</nav>
 		</div>
 	</header>
 
 	<section class="wq-banner_pagina">
 		<img src="img/breadcrumbs.jpg" alt="" title="">
 		<div class="wq-breadcrumbs">
-			<div class="wq-container">
-				<div class="wq-flex">
+			<div class="container">
+				<div class="row">
 					<h1 data-titulo="Sobre Nós">Sobre Nós</h1>
 					<p><a href="index.html">Home</a> > Sobre Nós</p>
 				</div>
@@ -65,23 +92,22 @@
 		</div>
 	</section>
 
-	<section class="wq-02">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_6f wq-box_cp-12f wq-box_cl-12f">
+	<section class="wq-empresa_01" id="sobre-pagina" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 					<div>
-						<h3>Especialista em agronegócio, assim como você.</h3>
-						<p>Administrar uma empresa diante de um mercado competitivo e um cenário econômico cheio de adversidades não é fácil. Em meio a tantas dificuldades podemos destacar um sistema tributário nacional muito complexo, com vários tipos de tributos que oneram as empresas, diminuindo seu lucro e, automaticamente, sua competitividade de mercado.</p>
-						<p>Nesse cenário adverso, temos a necessidade de estudar com afinco o sistema tributário nacional, a fim de realizar um planejamento tributário, que nada mais é que analisar qual regime tributário irá onerar menos a empresa, dando-lhe a oportunidade de manter-se no mercado, gerar lucros e assim gerar empregos, para o bom funcionamento de nossa sociedade.</p>
-						<p>Há uma grande dificuldade para interpretação da legislação tributária e, não bastasse isso, ainda são feitas constantes alterações na legislação pertinente, o que exige que o profissional da área esteja em constante processo de atualização de seus conhecimentos</p>
-						<p>Surge dessa forma o papel da empresa AGROCONTAR, que faz esse estudo e orienta seu cliente, de forma a evitar o procedimento mais oneroso do ponto de vista fiscal. Com um planejamento tributário bem feito, é possível prever as falhas, as dificuldades que irão surgir, elaborar ações preventivas, e enfim, atingir seus objetivos.</p>
-						<p>A empresa AGROCONTAR, está em constante crescimento, buscando novos clientes, e com a preocupação com a competitividade e com a qualidade de seus serviços prestados. Seu principal objetivo é atender cada vez melhor os seus clientes, prestando um serviço diferenciado no mercado relacionado à contabilidade. Para que isso seja possível, a empresa necessita de colaboradores altamente treinados, integrados, motivados, comprometidos com os objetivos organizacionais e realizados com seu trabalho.</p>
+						<h3><span>Especialista em agronegócio, assim como você.</span></h3>
+						<p>Administrar uma empresa diante de um mercado competitivo e um cenário econômico cheio de adversidades não é fácil. Em meio a tantas dificuldades no mercado do agronegócio, podemos destacar um sistema tributário nacional muito complexo, com vários tipos de tributos que oneram as empresas, diminuindo seu lucro e, automaticamente, sua competitividade de mercado.</p>
+						<p>Além disso, há uma grande dificuldade para interpretação da legislação tributária e, não bastasse isso, ainda são feitas constantes alterações na legislação, o que exige que o profissional da área esteja em constante processo de atualização de seus conhecimentos.</p>
+						<p>Surge dessa forma o papel da empresa AGROCONTAR, especialista em agronegócio que faz esse estudo e orienta seu cliente, de forma a evitar o procedimento mais oneroso do ponto de vista fiscal. Com um planejamento tributário eficiente e eficaz, é possível prever as falhas, as dificuldades que irão surgir acompanhar e elaborar ações preventivas, e enfim, atingir seus objetivos.</p>
+						<p>"O objetivo da Agrocontar é proporcionar um serviço contábil diferenciado, desde o planejamento tributário, até a construção de análises - econômico-financeiras assessorando diretamente na gestão contábil e tomada de decisão a fim de proporcionar que o seu cliente foque no principal objetivo do seu negócio."</p>
+						<p>A empresa está em constante crescimento, buscando novos clientes, e com a preocupação com a competitividade e com a qualidade de seus serviços prestados. A meta da Agrocontar é atender cada vez melhor os seus clientes, prestando um serviço diferenciado no mercado relacionado à contabilidade. Para que isso seja possível, a empresa necessita de colaboradores altamente treinados, integrados, motivados, comprometidos com os objetivos organizacionais e realizados com seu trabalho.</p>
 					</div>
 				</div>
-				<div class="wq-box_6f wq-box_cp-12f wq-box_cl-12f">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 					<figure>
-						<img src="img/wq-02_img.jpg" alt="" title="">
-					</figure>
+						<img src="img/empresa_1.jpg" alt="" title="empresa_1">					</figure>
 					<div class="wq-mvv">
 						<div class="wq-mvv_item">
 							<figure>
@@ -89,7 +115,8 @@
 							</figure>
 							<div>
 								<h2>Missão</h2>
-								<p>Atuar no mercado do agronegócio, promovendo a evolução profissional dos nossos colaboradores e clientes para organizar e gerar informações para tomada de decisão.</p>
+								<p>Promover a evolução dos colaboradores para atuar como especialistas no mercado do Agronegócio, gerar informações confiáveis e em tempo hábil<br>
+								ao cliente, auxiliando sua tomada de decisão. </p>
 							</div>
 						</div>
 						<div class="wq-mvv_item">
@@ -98,7 +125,7 @@
 							</figure>
 							<div>
 								<h2>Visão</h2>
-								<p>Ser referência em soluções organizacionais para as empresas do Agronegócio Brasileiro.</p>
+								<p>Consolidar a marca Agrocontar em todo o território Nacional como sinônimo de excelência e inovação no serviço prestado, sendo a melhor empresa Contábil para se trabalhar no país. </p>
 							</div>
 						</div>
 						<div class="wq-mvv_item">
@@ -107,7 +134,19 @@
 							</figure>
 							<div>
 								<h2>Valores</h2>
-								<p>Ética, inovação, espírito de equipe, humildade e respeito em todas as parcerias.</p>
+								<p>• Ética: agir com honestidade e comprometimento em todas as parcerias.</p>
+								<p>• Inovação: aplicar as mudanças do mercado e da legislação, integrando-as com recursos tecnológicos para desenvolver nosso trabalho com excelência. </p>
+								<p>• Respeito: trabalhar em equipe, respeitar as diferenças e promover qualidade de vida.</p>
+								<p>• Humildade: reconhecer nossa posição, aceitando críticas e sugestões como possibilidade de evoluir. </p>
+							</div>
+						</div>
+						<div class="wq-mvv_item">
+							<figure>
+								<img src="img/mission.png" alt="" title="">
+							</figure>
+							<div>
+								<h2>Propósito</h2>
+								<p>Por meio da Contabilidade, transformar a gestão e possibilitar o crescimento e longevidade do agronegócio brasileiro. </p>
 							</div>
 						</div>
 					</div>
@@ -116,38 +155,42 @@
 		</div>
 	</section>
 
-	<section class="wq-04">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_4 wq-box_cp-12f wq-box_cl-12f">
-					<h3 class="wq-titulo_2">Quem confia na Agrocontar</h3>
+	<section class="wq-mapa" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<h2 class="wq-titulo_2">Unidades Agrocontar</h2>
+					<p>Com unidade em Goiânia, Ribeirão Preto e Patos de Minas, a Agrocontar atua em todos os Estados do Brasil.</p>
+					<ul class="nav nav-tabs">
+						<li class="">
+							<a class="tabs-btn active" data-toggle="tab" href="#item-01">
+								<h3>Unidade GO</h3>
+								<p> Goiânia - Av. C 255, nº 400 - Sala 802, Eldorado Business Tower - Nova Suiça – CEP: 74280 – 010</p>
+							</a>
+						</li>
+						<li class="">
+							<a class="tabs-btn" data-toggle="tab" href="#item-02">
+								<h3>Unidade MG</h3>
+								<p>Patos de Minas - Rua Silva Guerra, nº 43 - Loja 01, Ed. Coml Maria Luiza Teles - Centro - CEP: 38700 – 176</p>
+							</a>
+						</li>
+					</ul>
 				</div>
-				<div class="wq-box_8 wq-box_cp-12f wq-box_cl-12f">
-					<div class="wq-carousel_clientes">
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
-						</div>
-						<div class="wq-clientes_item">
-							<a href="">
-								<img src="img/clientes.jpg" alt="" title="">
-							</a>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="wq-mapa_brasil">
+						<h3 class="wq-titulo_2">Onde Atuamos</h3>
+
+						<div class="tab-content">
+							<div class="tab-pane fade show active" id="item-01">			
+								<figure>
+									<img src="img/map3.png" alt="mapa do Brasil" title="mapa do Brasil">
+								</figure>
+							</div>
+							<div class="tab-pane fade" id="item-02">
+								<figure>
+									<img src="img/map3.png" alt="" title="">
+								</figure>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -155,48 +198,61 @@
 		</div>
 	</section>
 
-	<footer class="wq-footer">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+	<footer class="wq-footer" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Endereço</h4>
 					<address>Patos de Minas - Rua Silva Guerra, nº 43 - Loja 01, Ed. Coml Maria Luiza Teles - Centro - CEP: 38.700-176</address>
 					<address>Goiânia - Av. C 255, nº 400 - Sala 802, Eldorado Business Tower - Nova Suiça - CEP: 74.280-010</address>
 					<address>Ribeirão Preto - Av. Professor João Fiusa, nº 1901 - Sala 301 - Ed Fiusa Center – Jd Botânico - CEP: 14.024-250
 					</address>
 				</div>
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Contato</h4>
 					<address>contato@agrocontar.com.br</address>
 					<address>34 3823-7915</address>
 					<a href="">TRABALHE CONOSCO</a>
 				</div>
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Siga-nos</h4>
 					<ul class="wq-midias-sociais wq-lista-inline">
-						<li><a href=""><span class="flaticon-instagram"></span></a></li>
-						<li><a href=""><span class="flaticon-facebook"></span></a></li>
-						<li><a href=""><span class="flaticon-google-plus"></span></a></li>
+						<li><a href="https://www.linkedin.com/company/40806601/"><span class="flaticon-linkedin-1"></span></a></li>
+							<li><a href="https://www.instagram.com/agrocontar/"><span class="flaticon-instagram-1"></span></a></li>
+							<li><a href="https://www.facebook.com/pg/agrocontar"><span class="flaticon-facebook-1"></span></a></li>
 					</ul>
 				</div>
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-6f wq-box_tp-6 wq-box_tl-6">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="wq-menu_footer">
-						<ul>
-							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="empresa.html">Sobre nós</a></li>
-							<li><a href="servicos.html">Soluções</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contato.html">Contato</a></li>
+						<ul class="navbar-nav wq-menu_principal">
+							<li class="nav-item">
+								<a class="menu-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="empresa.html">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="servicos.html">Soluções</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="contato.html">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="trabalhe-conosco.html">Trabalhe Conosco</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="wq-copyright">
-			<div class="wq-container">
-				<div class="wq-flex">
-					<p>® 2017 Agrocontar - Todos os Direitos Reservados.</p>
-					<p>Desenvolvido por <a href="">Harpia Propaganda</a></p>
+			<div class="container">
+				<div class="row">
+					<p>® 2022 Agrocontar - Todos os Direitos Reservados.</p>
+					<p>Desenvolvido por <a href="https://atomdigital.com.br/">Atom Digital</a></p>
 				</div>
 			</div>
 		</div>

@@ -1,10 +1,18 @@
 $(function(){
 	
-	jQuery('.wq-buscar_btn').click(function() {
-		jQuery('.wq-buscar_input').toggleClass("mostrar_buscar")
-	})
-	jQuery('.wq-btn_fechar').click(function() {
-		jQuery('.wq-buscar_input').toggleClass("mostrar_buscar")
-	})
-
-})
+	$(window).scroll(function(){
+		if($(this).scrollTop()>30){
+			$('.wq-header').each(function(){
+				$(this).addClass("wq-header_fixo")
+			}
+		)}else{
+			$('.wq-header').each(function(){
+				$(this).removeClass("wq-header_fixo")
+			})
+		};
+	});
+	$(window).scroll();
+	
+	AOS.init();
+	
+});

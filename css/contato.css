@@ -19,34 +19,34 @@
 	border: 1px solid #9fa5a2;
 	padding: 15px 17px;
 }
-.wq-form .wq-box_4,
-.wq-form .wq-box_12{margin-bottom: 20px;}
+.wq-form .col-xl-4,
+.wq-form .col-xl-12{margin-bottom: 20px;}
 
 
 /* contato_01 */
 
-.wq-contato_01 .wq-flex > .wq-box_6f:first-child > div{
+.wq-contato_01 .row > .col-xl-6:first-child > div{
 	padding: 40px 50px 60px 0;
 }
 .wq-contato_01{
 	overflow: hidden;
 }
-.wq-contato_01 .wq-box_6f > figure {
+.wq-contato_01 .col-xl-6 > figure {
     position: absolute;
     left: 10px;
     top: 0px;
 }
-.wq-contato_01 .wq-box_6f{
+.wq-contato_01 .col-xl-6{
 	position: relative;
 }
-.wq-contato_01 .wq-box_6f img{
+.wq-contato_01 .col-xl-6 img{
 	display: block;
 }
 .wq-contato_01 textarea{
 	height: 100px;
 }
 .wq-contato_01 input,.wq-contato_01 textarea{
-	width: calc(100% - 38px);
+	width: 100%;
 	padding: 18px;
 	margin-bottom: 17px;
 	border: 1px solid #989898;

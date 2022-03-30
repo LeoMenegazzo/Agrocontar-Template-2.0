@@ -3,52 +3,88 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Agrocontar</title>
+	<title>Agrocontar -  Blog</title>
 
-	<link rel="stylesheet" type="text/css" href="css/webquantica-grid.css">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
 	<link rel="stylesheet" href="icons/icomoon/icons.css">
 
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/webquantica-grid.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/aos.js"></script>
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/carousel.js"></script>
 	<script type="text/javascript" src="js/efeitos.js"></script>
 	<script type="text/javascript" src="js/scroll.js"></script>
 <body>
-<header class="wq-header wq-header_vertical">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-logo">
+	<header class="wq-header wq-header_vertical">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg header-nav">
+				<div class="wq-logo navbar-brand">
 					<a href="index.html">
 						<img src="img/logo-agrocontar.png" alt="" title="">
 					</a>
 				</div>
-				<div class="wq-btn_menu">
-					<hr>
-					<hr>
-					<hr>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuMobile" aria-controls="menuMobile" aria-expanded="false" aria-label="Toggle navigation">
+					<span>
+						<img src="img/menu.svg" alt="" title="">
+					</span>
+				</button>
+
+				<div class="wq-navegacao">
+					<div>
+						<ul class="wq-midias-sociais wq-lista-inline">
+							<li><a href="https://www.linkedin.com/company/40806601/"><span class="flaticon-linkedin-1"></span></a></li>
+							<li><a href="https://www.instagram.com/agrocontar/"><span class="flaticon-instagram-1"></span></a></li>
+							<li><a href="https://www.facebook.com/pg/agrocontar"><span class="flaticon-facebook-1"></span></a></li>
+						</ul>
+						<p>
+							<a href="tel:+553438237915">+55 (34) 3823-7915</a>
+							<a href="tel:+556234149300">+55 (62) 3414-9300</a>
+						</p>
+					</div>
+					<div class="collapse navbar-collapse " id="menuMobile">
+						<ul class="navbar-nav wq-menu_principal">
+							<li class="nav-item">
+								<a class="menu-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="empresa.html">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="servicos.html">Soluções</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="contato.html">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="trabalhe-conosco.html">Trabalhe Conosco</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<nav class="wq-menu_principal">
-					<ul class="wq-lista-inline">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="empresa.html">Sobre nós</a></li>
-						<li><a href="servicos.html">Soluções</a></li>
-						<li><a href="blog.html" class="active">Blog</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
+			</nav>
 		</div>
 	</header>
 
 	<section class="wq-banner_pagina">
 		<img src="img/breadcrumbs.jpg" alt="" title="">
 		<div class="wq-breadcrumbs">
-			<div class="wq-container">
-				<div class="wq-flex">
+			<div class="container">
+				<div class="row">
 					<h1 data-titulo="Blog">Blog</h1>
 					<p><a href="index.html">Home</a> > Blog</p>
 				</div>
@@ -56,16 +92,16 @@
 		</div>
 	</section>
 
-	<section class="wq-blog_01 wq-blog_interno">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_9">
+	<section class="wq-blog_01 wq-blog_interno" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
 					<div class="wq-conteudo">
 						<figure>
 							<img src="img/blog_img-interno.jpg" alt="">
 						</figure>
 						<span>20.07.2017 | Por: <b>Igor Lavagnoli</b></span>
-						<h2><a href="blog-interno.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
+						<h2><a href="blog-interna.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aspernatur excepturi temporibus tempora cupiditate nisi natus expedita animi beatae minima neque ut, dignissimos pariatur incidunt voluptates unde enim repellendus!</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium aspernatur molestias pariatur doloribus sequi repellendus, sit culpa facilis unde beatae obcaecati veniam, accusamus iusto quaerat fugiat, consectetur ut hic! Sunt ratione omnis magnam deleniti minima nemo commodi tenetur, magni, sit incidunt aliquam adipisci pariatur accusantium vero dolore atque fugit mollitia hic ea, perferendis placeat non eligendi veniam! Rerum dolorem dignissimos nesciunt, consectetur aliquid facilis laudantium odio. Eos fugit vero assumenda impedit, cupiditate iusto reprehenderit quaerat atque architecto sapiente asperiores, nihil sit est laborum! Architecto accusamus rerum officia blanditiis tenetur esse cupiditate, voluptas voluptatem aut, dolor eius commodi veniam ipsam facere.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quaerat in consequuntur sequi eligendi? Suscipit fuga, fugiat! Ab necessitatibus in, possimus vero corrupti omnis voluptates reiciendis odio velit. Unde eveniet itaque impedit dolore dolor delectus dolorum saepe atque quisquam, quia velit, dignissimos sit, fugiat vel doloremque assumenda aut adipisci suscipit laudantium distinctio dicta ipsum ex repudiandae. Soluta error quos tempore numquam eius libero quo minima a praesentium adipisci non, accusantium exercitationem, qui deleniti unde id beatae, commodi. Enim ipsum voluptates aliquid, minima? Minus minima beatae eligendi nostrum quisquam, ea officia eveniet commodi, obcaecati sequi sit. Expedita quae nesciunt aliquid in tenetur nobis hic magnam facilis asperiores deleniti voluptate qui, omnis culpa animi neque nisi magni, rerum cum dolorem perspiciatis quia. Animi amet porro quos voluptatum tenetur ducimus non aliquid cupiditate natus beatae labore dicta, possimus temporibus eius eos error, at ut neque veniam doloribus necessitatibus alias est pariatur totam. Dolorem quaerat enim fugiat, iure quisquam! Libero sit sint itaque placeat hic sapiente minima, consequatur officia rem debitis recusandae, iure animi labore neque, voluptatibus soluta molestiae odit! Non nisi nesciunt obcaecati sed, quo possimus ut esse quasi! Voluptate possimus laboriosam, eos quibusdam ab totam corporis. Voluptas, autem commodi provident possimus iure.</p>
@@ -75,10 +111,10 @@
 						<h2>Deixe seu comentario</h2>
 					</div>
 				</div>
-				<aside class="wq-box_3 wq-box_cp-12f wq-box_cl-12f wq-box_tp-4 wq-box_tl-4">
+				<aside class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
 					<form action="">
 						<input type="text" placeholder="Pesquisar">
-						<button><span class="icon-search"></span></button>
+						<button><span class="flaticon-search-1"></span></button>
 					</form>
 					<div class="wq-conteudo categoria">
 						<h3>categorias</h3>
@@ -94,17 +130,17 @@
 						<div class="wq-conteudo">
 							<figure><img src="img/blog_img.jpg" alt=""></figure>
 							<span>20.07.2017 | Por: <b>Igor Lavagnoli</b></span>
-							<h2><a href="blog-interno.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
+							<h2><a href="blog-interna.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
 						</div>
 						<div class="wq-conteudo">
 							<figure><img src="img/blog_img.jpg" alt=""></figure>
 							<span>20.07.2017 | Por: <b>Igor Lavagnoli</b></span>
-							<h2><a href="blog-interno.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
+							<h2><a href="blog-interna.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
 						</div>
 						<div class="wq-conteudo">
 							<figure><img src="img/blog_img.jpg" alt=""></figure>
 							<span>20.07.2017 | Por: <b>Igor Lavagnoli</b></span>
-							<h2><a href="blog-interno.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
+							<h2><a href="blog-interna.html">Pellentesque a ligula id sapien pharetra ullamco</a></h2>
 						</div>
 					</div>
 				</aside>
@@ -112,20 +148,20 @@
 		</div>
 	</section>
 
-	<section class="wq-05">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="wq-box_3 wq-box_cp-12f wq-box_cl-12f wq-box_tp-12f wq-box_tl-12f">
+	<section class="wq-05" data-aos="fade">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
 					<h3 class="wq-titulo_2">Posts Relacionados</h3>
 				</div>
-				<div class="wq-box_9 wq-box_cp-12f wq-box_cl-12f wq-box_tp-12f wq-box_tl-12f">
-					<div class="wq-blog_item wq-flex">
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+				<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
+					<div class="wq-blog_item row">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<figure>
 								<img src="img/blog_img.jpg" alt="" title="">
 							</figure>
 						</div>
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<h2>Vitae pharetra justo magna a lorem</h2>
 								<p>Donsectetur ante vel pharetra fringilla. Proin vehicula magna justo, ac luctus justo blandit non. Sed erat mi, pharetra et malesuada ac.</p>
@@ -133,13 +169,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="wq-blog_item wq-flex">
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+					<div class="wq-blog_item row">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<figure>
 								<img src="img/blog_img.jpg" alt="" title="">
 							</figure>
 						</div>
-						<div class="wq-box_6 wq-box_cp-12f wq-box_cl-12f">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
 							<div>
 								<h2>Vitae pharetra justo magna a lorem</h2>
 								<p>Donsectetur ante vel pharetra fringilla. Proin vehicula magna justo, ac luctus justo blandit non. Sed erat mi, pharetra et malesuada ac.</p>
@@ -151,51 +187,62 @@
 			</div>
 		</div>
 	</section>
-
-
 	
 	<footer class="wq-footer">
-		<div class="wq-container">
-			<div class="wq-flex">
-				<div class="">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Endereço</h4>
 					<address>Patos de Minas - Rua Silva Guerra, nº 43 - Loja 01, Ed. Coml Maria Luiza Teles - Centro - CEP: 38.700-176</address>
 					<address>Goiânia - Av. C 255, nº 400 - Sala 802, Eldorado Business Tower - Nova Suiça - CEP: 74.280-010</address>
 					<address>Ribeirão Preto - Av. Professor João Fiusa, nº 1901 - Sala 301 - Ed Fiusa Center – Jd Botânico - CEP: 14.024-250
 					</address>
 				</div>
-				<div class="">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Contato</h4>
 					<address>contato@agrocontar.com.br</address>
 					<address>34 3823-7915</address>
-					<a href="">TRABALHE CONOSCO</a>
+					<a href="trabalhe-conosco.html">TRABALHE CONOSCO</a>
 				</div>
-				<div class="">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<h4>Siga-nos</h4>
 					<ul class="wq-midias-sociais wq-lista-inline">
-						<li><a href=""><span class="flaticon-instagram"></span></a></li>
-						<li><a href=""><span class="flaticon-facebook"></span></a></li>
-						<li><a href=""><span class="flaticon-google-plus"></span></a></li>
+						<li><a href="https://www.linkedin.com/company/40806601/"><span class="flaticon-linkedin-1"></span></a></li>
+							<li><a href="https://www.instagram.com/agrocontar/"><span class="flaticon-instagram-1"></span></a></li>
+							<li><a href="https://www.facebook.com/pg/agrocontar"><span class="flaticon-facebook-1"></span></a></li>
 					</ul>
 				</div>
-				<div class="">
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 					<div class="wq-menu_footer">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="empresa.html">Sobre nós</a></li>
-							<li><a href="servicos.html">Soluções</a></li>
-							<li><a href="blog.html" class="active">Blog</a></li>
-							<li><a href="contato.html">Contato</a></li>
+						<ul class="navbar-nav wq-menu_principal">
+							<li class="nav-item">
+								<a class="menu-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="empresa.html">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="servicos.html">Soluções</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="contato.html">Contato</a>
+							</li>
+							<li class="nav-item">
+								<a class="menu-link" href="trabalhe-conosco.html">Trabalhe Conosco</a>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="wq-copyright">
-			<div class="wq-container">
-				<div class="wq-flex">
-					<p>® 2017 Agrocontar - Todos os Direitos Reservados.</p>
-					<p>Desenvolvido por <a href="">Harpia Propaganda</a></p>
+			<div class="container">
+				<div class="row">
+					<p>® 2022 Agrocontar - Todos os Direitos Reservados.</p>
+					<p>Desenvolvido por <a href="https://atomdigital.com.br/">Atom Digital</a></p>
 				</div>
 			</div>
 		</div>

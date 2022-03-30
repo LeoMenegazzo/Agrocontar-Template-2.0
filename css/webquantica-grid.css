@@ -221,14 +221,14 @@ th {
 
 /** Configurações das classes do grid **/
 
-.wq-container{
+.container{
 	width: 1100px;
 	max-width: calc(100% - 30px);
 	margin:0 auto;
 	padding-left:10px;
 	padding-right:10px;
 }
-.wq-container_fluido{
+.container_fluido{
 	width: calc(100% - 100px);
 	max-width: calc(100% - 30px);
 	margin:0 auto;
@@ -236,7 +236,7 @@ th {
 	padding-right:10px;
 }
 
-.wq-flex{
+.row{
 	display: flex;
 	justify-content: space-between;
 	position: relative;
@@ -401,34 +401,34 @@ li.wq-dropup ul{
 .wq-box_1_5 {width: calc(20% - 20px);}
 
 .wq-box_1  {width: calc(8.33333333% - 20px);}
-.wq-box_2  {width: calc(16.66666667% - 20px);}
-.wq-box_3  {width: calc(25% - 20px);}
-.wq-box_4  {width: calc(33.33333333% - 20px);}
-.wq-box_5  {width: calc(41.66666667% - 20px);}
-.wq-box_6  {width: calc(50% - 20px);}
-.wq-box_7  {width: calc(58.33333333% - 20px);}
-.wq-box_8  {width: calc(66.66666667% - 20px);}
-.wq-box_9  {width: calc(75% - 20px);}
-.wq-box_10 {width: calc(83.33333333% - 20px);}
-.wq-box_11 {width: calc(91.66666667% - 20px);}
-.wq-box_12 {width:calc(100% - 20px);}
+.col-xl-2  {width: calc(16.66666667% - 20px);}
+.col-xl-3  {width: calc(25% - 20px);}
+.col-xl-4  {width: calc(33.33333333% - 20px);}
+.col-xl-5  {width: calc(41.66666667% - 20px);}
+.col-xl-6  {width: calc(50% - 20px);}
+.col-xl-7  {width: calc(58.33333333% - 20px);}
+.col-xl-8  {width: calc(66.66666667% - 20px);}
+.col-xl-9  {width: calc(75% - 20px);}
+.col-xl-10 {width: calc(83.33333333% - 20px);}
+.col-xl-11 {width: calc(91.66666667% - 20px);}
+.col-xl-12 {width:calc(100% - 20px);}
 
-.wq-box_1f,.wq-box_2f,.wq-box_3f,.wq-box_4f,.wq-box_5f,.wq-box_6f,
-.wq-box_7f,.wq-box_8f,.wq-box_9f,.wq-box_10f,.wq-box_11f,.wq-box_12f{
+.wq-box_1f,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,
+.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-10,.col-xl-11,.col-xl-12{
 	padding:0;
 }
 .wq-box_1f{width:8.33333333%;}
-.wq-box_2f{width:16.66666667%;}
-.wq-box_3f{width:25%;}
-.wq-box_4f{width:33.33333333%;}
-.wq-box_5f{width:41.66666667%;}
-.wq-box_6f{width:50%;}
-.wq-box_7f{width:58.33333333%;}
-.wq-box_8f{width:66.66666667%;}
-.wq-box_9f{width:75%;}
-.wq-box_10f{width:83.33333333%;}
-.wq-box_11f{width:91.66666667%;}
-.wq-box_12f{width:100%;}
+.col-xl-2{width:16.66666667%;}
+.col-xl-3{width:25%;}
+.col-xl-4{width:33.33333333%;}
+.col-xl-5{width:41.66666667%;}
+.col-xl-6{width:50%;}
+.col-xl-7{width:58.33333333%;}
+.col-xl-8{width:66.66666667%;}
+.col-xl-9{width:75%;}
+.col-xl-10{width:83.33333333%;}
+.col-xl-11{width:91.66666667%;}
+.col-xl-12{width:100%;}
 
 @media screen and (min-width: 1600px) {
 
@@ -638,7 +638,7 @@ li.wq-dropup ul{
 
 @media screen and (max-width: 999px) {
 
-	.wq-flex{flex-wrap: wrap;}
+	.row{flex-wrap: wrap;}
 
 	.wq-header .wq-menu_principal ul{display: none;}
 
@@ -662,7 +662,7 @@ li.wq-dropup ul{
 
 	.wq-header_vertical{position: relative;}
 
-	.wq-header_vertical .wq-flex{
+	.wq-header_vertical .row{
 		flex-direction: column;
 	}
 	.wq-header_vertical .wq-main{width: 100%;}
@@ -675,12 +675,12 @@ li.wq-dropup ul{
 
 	/* Configurações para header com logo no centro */
 
-	.wq-header_centro .wq-flex{
+	.wq-header_centro .row{
 		flex-direction:column-reverse;
 	}
 
 
-	.wq-box_12{margin-bottom: 10px;}
+	.col-xl-12{margin-bottom: 10px;}
 
 }
 
